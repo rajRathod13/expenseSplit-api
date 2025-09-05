@@ -1,0 +1,6 @@
+@ExpenseSplit.Consumer_HostAddress = http://localhost:5265
+
+GET {{ExpenseSplit.Consumer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

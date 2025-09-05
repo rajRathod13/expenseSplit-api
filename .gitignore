@@ -1,0 +1,22 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ExpenseSplit.API/bin/Debug/net8.0
+/ExpenseSplit.API/obj
+/ExpenseSplit.Application/bin/Debug/net8.0
+/ExpenseSplit.Application/obj
+/ExpenseSplit.Application.Test/bin/Debug/net8.0
+/ExpenseSplit.Application.Test/obj
+/ExpenseSplit.Common/bin/Debug/net8.0
+/ExpenseSplit.Common/obj
+/ExpenseSplit.Consumer/bin/Debug/net8.0
+/ExpenseSplit.Consumer/obj
+/ExpenseSplit.Domain/bin/Debug/net8.0
+/ExpenseSplit.Domain/obj
+/ExpenseSplit.Infrastructure/bin/Debug/net8.0
+/ExpenseSplit.Infrastructure/obj
+/ExpenseSplit.Infrastructure.Test/bin/Debug/net8.0
+/ExpenseSplit.Infrastructure.Test/obj
+/.vs/ExpenseSplit/FileContentIndex
+/.vs/ExpenseSplit/DesignTimeBuild
