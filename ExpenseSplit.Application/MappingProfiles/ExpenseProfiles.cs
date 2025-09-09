@@ -21,6 +21,7 @@ public class ExpenseProfiles : Profile
 
         CreateMap<ExpenseResponse, Expense>()
             .ForMember(desc => desc.SplitDetails, opt => opt.MapFrom(src => src.SplitDetails))
+            .ForMember(desc => desc.PaidById, opt => opt.MapFrom(src => src.PaidById))
             .ForMember(desc => desc.User, opt => opt.MapFrom(src => src.User))
             .ForMember(desc => desc.GroupDetail, opt => opt.MapFrom(src => src.GroupDetail))
             .ForMember(desc => desc.CreatedOn, opt => opt.MapFrom(src => src.CreatedOn))

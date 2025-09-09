@@ -35,12 +35,11 @@ public class ExpenseRepository : IExpenseRepository
     {
         IQueryable<Expense> query = _context.Expenses.Where(x => x.GroupId == groupId)
                                                      .Include(x => x.SplitDetails)
-                                                     .ThenInclude(x => x.User)
                                                      .Include(x => x.GroupDetail)
                                                      .Include(x => x.User)
                                                      .OrderByDescending(x => x.CreatedOn);
         if (latestOnly)
-            query = query.Take(7);
+            query = query.Take(6);
 
         return await query.ToListAsync(cancellationToken);
     }
